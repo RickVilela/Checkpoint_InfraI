@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  hackerspace:
+    image: hackerspace
+    ports:
+      - "8081:80"
+
+  calculadora:
+    image: calculadora
+    build: .
+    container_name: calculadora
+    ports:
+      - "8000:80"
+   

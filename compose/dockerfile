@@ -1,0 +1,7 @@
+FROM nginx:alpine
+EXPOSE 8000
+WORKDIR /usr/share/nginx/html
+COPY /src /usr/share/nginx/html
+
+
+

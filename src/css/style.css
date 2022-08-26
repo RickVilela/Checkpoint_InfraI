@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&family=Silkscreen&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Silkscreen', cursive;
+  }
+
+body{
+    background-color: black;
+    background-image: url("https://img.freepik.com/fotos-gratis/ataque-cibernetico-com-hacker-encapuzado-irreconhecivel-usando-realidade-virtual-efeito-de-falha-digital_146671-18944.jpg?w=740&t=st=1661168939~exp=1661169539~hmac=a9da2320015785398958d53b76d0f6d99095ac24d7e69b0b49ac2b4f3efb8886");
+    background-size: 100%;
+    background-attachment: scroll;
+    font-size: 1em;
+    justify-content: center;
+}
+
+#titulo{
+    color: white;
+    text-align: center;
+    padding: 4%;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    padding-bottom: 5%;
+    border: 6px;
+}
+h3{
+    margin: 10px;
+}
+
+
+
+header{
+    display: flex;
+    height: 100%;
+    width: 50px;
+    background-color: black;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu{
+    list-style: none;
+    padding-left: 10px;
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+    
+}
+
+#home, #contato{
+    justify-content: space-around;
+    padding: 10px;
+    align-items: flex-end;
+}
+
+
+form{
+    text-align: center;
+    margin-left: 20%;
+    display: flex;
+    height: 50%;
+    width: 60%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    margin-bottom: 7%;
+}
+
+input{
+    justify-content: center;
+    margin:10px;
+}
+
+#botao{
+    background-color: rgb(20, 11, 141);
+    color: white;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+}
+
+#botao:hover{
+    background-color: rgb(54, 41, 233);
+}
+
+#rodape{
+    width: 100%;
+    height: 85px;
+    background-color: rgba(14, 7, 117, 0.7);
+    bottom: 0;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width: 50px;
+    margin: 4px;
+}
+
+p{
+    color: white;
+    font-size: 8px;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-card{
+    text-align: center;
+    margin-left: 20%;
+    display: flex;
+    height: 80%;
+    width: 60%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    margin-bottom: 7%;
+}
+
+#imagem-card{
+    width: 150px;
+    height: 150px;
+}
+
+input{
+    border-radius: 5px;
+    background-color:white;
+    border-style:double;
+    padding: 3px;
+}
+
+#name{
+    background-image: url(https://cdn-icons.flaticon.com/png/512/3813/premium/3813265.png?token=exp=1661206173~hmac=767ead581bf3725fcece85a77eeb52f2);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.3em;
+    padding-left: 1.3em;
+    margin-left: 5px;
+ 
+}
+
+#email{
+    background-image: url(https://cdn-icons-png.flaticon.com/512/646/646094.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.3em;
+    padding-left: 1.3em;
+    margin-left: 5px;
+}
+
+#tel{
+    background-image: url(https://cdn-icons-png.flaticon.com/512/254/254638.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.3em;
+    padding-left: 1.3em;
+    margin-left: 5px;
+}
+
